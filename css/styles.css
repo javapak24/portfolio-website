@@ -151,13 +151,9 @@ table{
     h1{
         font-size: 22px;
     }
-    .profile_grid{
-        grid-template-columns: 1fr;
-        grid-gap: 10px;
-    }
-    .profile_grid_item:last-child{
-        grid-column: auto auto;
-        grid-row: auto auto;
+    .profile{
+        max-width: auto;
+        margin: auto;
     }
 }
 @keyframes mass-spin{
