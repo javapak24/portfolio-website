@@ -151,6 +151,10 @@ table{
     h1{
         font-size: 22px;
     }
+    .profile{
+        max-width: auto;
+        margin: auto;
+    }
 }
 @keyframes mass-spin{
     0%{
