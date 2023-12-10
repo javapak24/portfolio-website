@@ -151,6 +151,17 @@ table{
     h1{
         font-size: 22px;
     }
+    .body_wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .wrapper_item{
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+    .navigation-list li{
+        margin-left: 10px;
+    }
 }
 @keyframes mass-spin{
     0%{
